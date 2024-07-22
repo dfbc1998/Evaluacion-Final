@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.btn-ejercicio1 {
+    background-color: #9b59b6;
+}
+
+.btn-ejercicio2 {
+    background-color: #8db600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-purple {
+    background-color: #6a0dad;
+    color: white;
+}
+
+.btn-green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
